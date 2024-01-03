@@ -10,6 +10,7 @@
     "embed": "node createEmbeddings.mjs"
   },
   "dependencies": {
+    "@types/express": "^4.17.21",
     "ai": "2.2.14",
     "dotenv": "^16.3.1",
     "langchain": "^0.0.129",
