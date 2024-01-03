@@ -1,0 +1,49 @@
+- **Device Name:** Industrial Network Switch Psi
+  - **IP Address:** 192.168.3.2
+  - **Errors:**
+    - **Timestamp:** 2023-12-02 14:27:10
+      - **Message:** Lost Connection to Device 192.168.3.35
+    - **Timestamp:** 2023-12-02 14:27:35
+      - **Message:** Attempting to Reconnect to Device 192.168.3.35
+    - **Timestamp:** 2023-12-02 14:28:00
+      - **Message:** Device 192.168.3.35 Reconnected
+
+- **Device Name:** Data Analysis Workstation Mu
+  - **IP Address:** 192.168.4.65
+  - **Errors:**
+    - **Timestamp:** 2023-12-03 10:05:20
+      - **Message:** Low Disk Space
+    - **Timestamp:** 2023-12-03 10:06:00
+      - **Message:** Disk Space Exhausted, Unable to Save Data
+    - **Timestamp:** 2023-12-03 10:10:45
+      - **Message:** Disk Cleanup Initiated
+
+- **Device Name:** Core Router Omega
+  - **IP Address:** 192.168.1.1
+  - **Errors:**
+    - **Timestamp:** 2023-12-04 09:30:55
+      - **Message:** Internet Connection Lost
+    - **Timestamp:** 2023-12-04 09:31:10
+      - **Message:** Switching to Backup Internet Line
+    - **Timestamp:** 2023-12-04 09:31:25
+      - **Message:** Backup Internet Line Active
+
+- **Device Name:** File Server Alpha
+  - **IP Address:** 192.168.1.10
+  - **Errors:**
+    - **Timestamp:** 2023-12-05 11:45:00
+      - **Message:** Read/Write Failure on Disk 2
+    - **Timestamp:** 2023-12-05 11:45:15
+      - **Message:** Switching to Redundant Disk
+    - **Timestamp:** 2023-12-05 11:45:30
+      - **Message:** Data Integrity Check Initiated
+
+- **Device Name:** Backup Switch Lambda
+  - **IP Address:** 192.168.2.2
+  - **Errors:**
+    - **Timestamp:** 2023-12-06 16:20:45
+      - **Message:** Unusual Traffic Patterns Detected
+    - **Timestamp:** 2023-12-06 16:21:00
+      - **Message:** Initiating Traffic Analysis
+    - **Timestamp:** 2023-12-06 16:25:30
+      - **Message:** Potential DDoS Attack Detected
