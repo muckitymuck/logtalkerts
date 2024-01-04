@@ -31,5 +31,10 @@ export async function POST(req: Request) {
   
   const retrieverOutput = await retriever.getRelevantDocuments(question);
   
-  return Response.json(retrieverOutput);
+  //return Response.json(retrieverOutput);
+
+  // Create a new Response object and call .json() on it
+  return new Response(JSON.stringify(retrieverOutput), {
+    headers: { 'Content-Type': 'application/json' },
+  });
 }
