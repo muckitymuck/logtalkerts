@@ -1,5 +1,5 @@
 {
-  "name": "docs-vector-search-demo",
+  "name": "logtalker_rag_llm_app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,6 @@
     "embed": "node createEmbeddings.mjs"
   },
   "dependencies": {
-    "@types/express": "^4.17.21",
     "ai": "2.2.14",
     "dotenv": "^16.3.1",
     "langchain": "^0.0.129",
@@ -21,6 +20,8 @@
     "react-markdown": "^9.0.1"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
     "@types/node": "^17.0.12",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",

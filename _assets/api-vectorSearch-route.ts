@@ -40,7 +40,7 @@ export async function POST(req: express.Request, res: express.Response) {
   
   const retrieverOutput = await retriever.getRelevantDocuments(question);
 
-  console.log(retrieverOutput);
+  //console.log(retrieverOutput);
   
   //return Response.json(retrieverOutput);
   //return res.json(retrieverOutput);
