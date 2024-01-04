@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'freeCodeCamp.org Contributor Docs',
-  description: 'Contributing to freeCodeCamp.org.',
+  title: 'XYZ Company logs by AI',
+  description: 'RAG LLM app analyzing IT network logs by Andrew Goldstein',
 };
 
 export default function RootLayout({

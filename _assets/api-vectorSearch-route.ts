@@ -43,5 +43,9 @@ export async function POST(req: express.Request, res: express.Response) {
   console.log(retrieverOutput);
   
   //return Response.json(retrieverOutput);
-  return res.json(retrieverOutput);
+  //return res.json(retrieverOutput);
+  return new Response(JSON.stringify(retrieverOutput), {
+    headers: { 'Content-Type': 'application/json' },
+  });
 }
+
